@@ -21,7 +21,7 @@ div {
     background-color:  rgb(194, 255, 235) ;
     border-radius: 20px;
     padding-bottom: 20px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 3px black;
 }
 
 header {
@@ -38,7 +38,6 @@ img {
 }
 
 main {
-    width: 50vw;
     text-align:center;;
     width: 60vw;
 }
@@ -46,6 +45,15 @@ main {
 form {
     margin: 20px 0;
 }
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 6, 121);
+}
+
+
 
 input{
     border: none;
@@ -57,12 +65,22 @@ input{
 }
 
 #enviar , #esqueci-senha{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color:  rgb(170, 6, 121) ;
-    border: none;
-    width: 70%;
-    padding: 5px;
+    width: 60%;
+    height: 40px;
+    padding:5px;
+    border: solid black 1.5px;
     border-radius: 5px;
+}
+
+#enviar {
+    margin-top: 15px;
+}
+
+#esqueci-senha {
+    margin: 0 0 10px 0 ;
 }
 
 
