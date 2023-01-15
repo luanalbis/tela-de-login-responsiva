@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Tela de Login responsiva</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <h1></h1>
-        <p></p>
-    </header>
-    <main>
-        <form action="../Html_CSS/aula25-formulários/cadastro.py">
-
-            <label for="iduser"></label>
-            <input type="email" name="user" id="iduser" placeholder="">
-            <label for="ipassword"></label>
-            <input type="password" name="password" id="idpassword">
-
-
-        </form>
-    </main>
+    <div>
+        <header>
+            <img src="imagens/metal.jpg" alt="imagem de metal">
+            <h1>LOGIN</h1>
+            <p>Preencha os dados para fazer seu login!</p>
+        </header>
+        <main>
+            <form action="../Html_CSS/aula25-formulários/cadastro.py" method="post">
+                <p class="login">
+                    <label  for="iduser"></label>
+                    <input class="dados" type="email" name="user" id="iduser" placeholder="Email">
+                </p>
+                <p class="login">
+                    <label for="ipassword"></label>
+                    <input class="dados" type="password" name="password" id="idpassword" placeholder="Senha">
+                </p>
+                <p>
+                    <input id="enviar" type="submit" value="enviar">
+                </p>
+                <p>
+                    <input id="esqueci-senha" type="submit" value="Esqueci a senha">
+                </p>
+        
+            </form>
+        </main>
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+div {
+    background-color:  rgb(194, 255, 235) ;
+    border-radius: 20px;
+    padding-bottom: 20px;
+
+}
+
+header {
+    width: 50vw;
+    text-align: center;
+    width: 60vw;
+}
+
+img {
+    height: 30vh;
+    width: 60vw;
+    padding-bottom: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+main {
+    padding-top:20px ;
+    width: 50vw;
+    text-align:center;;
+    width: 60vw;
+}
+
+.dados {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 60%;
+}
+
+#enviar{
+    border: none;
+    width: 60%;
+    bacl
+}
+
+
