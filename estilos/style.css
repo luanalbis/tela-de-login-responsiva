@@ -1,7 +1,6 @@
 @charset "utf-8";
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
@@ -14,20 +13,29 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 3vw;
-    background-image: linear-gradient(to bottom , rgb(194, 255, 235 ), rgb(131, 3, 93));
+    background-image: linear-gradient(to bottom , rgb(180, 243, 222), rgb(172, 10, 123));
 }
 
 div {
     background-color:  rgb(194, 255, 235) ;
     border-radius: 20px;
-    padding-bottom: 20px;
     box-shadow: 1px 1px 3px black;
 }
 
 header {
-    width: 50vw;
     text-align: center;
     width: 60vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(5, 66, 66) ;
+}
+
+header p {
+    padding: 0 20px;
 }
 
 img {
@@ -47,21 +55,40 @@ form {
 }
 
 .login {
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(170, 6, 121);
+    background-color:  rgb(172, 10, 123);
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    padding-left: 2px;
 }
 
+.material-icons {
+    color: rgb(194, 255, 235);
+}
 
+.dados {
+    width: 100%;
+    padding-left: 8px;
+}
 
 input{
+    font-family: 'Roboto Mono', monospace;
     border: none;
-    border-radius: 8px;
+    border-radius: 0 8px 8px 0;
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
     width: 70%;
     height: 30px;
+    font-size: 1em;
+}
+
+input:focus {
+    border: none;
+    outline: none;
 }
 
 #enviar , #esqueci-senha{
@@ -72,15 +99,21 @@ input{
     height: 40px;
     padding:5px;
     border: solid black 1.5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #enviar {
     margin-top: 15px;
+    font-weight: bolder;
 }
 
 #esqueci-senha {
-    margin: 0 0 10px 0 ;
+    font-weight: bolder;
+}
+
+#enviar:hover,#esqueci-senha:hover {
+    background-color: rgb(218, 9, 155);
+    transition: background-color .1s translate -10px-1px;
 }
 
 
