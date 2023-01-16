@@ -32,6 +32,7 @@ body {
     text-align: center;
     width: 60vw;
     font-family: 'Roboto Mono', monospace;
+    margin: auto;
 }
 
 #cabecalho h1 {
@@ -40,20 +41,16 @@ body {
     color: rgb(5, 66, 66) ;
 }
 
-#cabecalho p {
-    padding: 0 10px;
-}
-
 img {
     height: 30vh;
-    width: 60vw;
+    width: 75vw;
     padding-bottom: 20px;
     border-radius: 20px 20px 0 0;
 }
 
 main {
     text-align:center;;
-    width: 60vw;
+    width: 75vw;
 }
 
 form {
