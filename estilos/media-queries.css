@@ -8,6 +8,7 @@
         padding: 0;
         margin: o;
     }
+
     #principal {
         display: flex;
         max-width: 800px;
@@ -32,7 +33,6 @@
     #cabecalho {
         width: 300px;
         padding-top: 8%;
-
     }
 }
 
@@ -43,6 +43,7 @@
         padding: 0;
         margin: o;
     }
+
     #principal {
         display: flex;
         flex-direction: row-reverse;
@@ -70,13 +71,11 @@
         text-align: center;
         max-width: 400px;
         padding-top: 20% ;
-
     }
 
     h1 {
         font-size: 30px;
     }
-
 }
 
 @media screen and (orientation:landscape) and (min-width:200px) and (max-width:800) {
@@ -95,9 +94,9 @@
     }
 
      main {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     img {
