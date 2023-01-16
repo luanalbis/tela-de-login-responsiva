@@ -2,15 +2,77 @@
 
 /* VERSÃO TABLET */
 
-@media screen and (min-width: 800px) and (max-width:3000px) {
-    body {
-        flex-direction: row;
+@media screen and (min-width: 800px) and (max-width:1200px){
+    * {
+        font-size: 22px;
+        padding: 0;
+        margin: o;
+    }
+    #principal {
+        display: flex;
+        max-width: 800px;
+        width: 90vw ;
+        height: 400px; 
+        border-radius: 10;
     }
 
-    div {
-        display: flex;
-        max-width: 70vw;
+     main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
     }
-    
+
+    img {
+        max-width: 300px;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    #cabecalho {
+        width: 300px;
+        padding-left: 15%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    * {
+        font-size: 24px;
+        padding: 0;
+        margin: o;
+    }
+    #principal {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1000px;
+        width: 90vw ;
+        height: 600px; 
+        border-radius: 10;
+    }
+
+     main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+
+    img {
+        max-width: 500px;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    #cabecalho {
+        text-align: center;
+        max-width: 400px;
+        margin-left: 35px;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
 
 }
