@@ -78,3 +78,38 @@
     }
 
 }
+
+@media screen and (orientation:landscape) and (min-width:200px) and (max-width:800) {
+
+    * {
+        font-size: 16px;
+        padding: 0;
+        margin: o;
+    }
+    #principal {
+        display: flex;
+        max-width: 400px;
+        width: 90vw ;
+        height: 200px; 
+        border-radius: 10;
+    }
+
+     main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+
+    img {
+        max-width: 150px;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    #cabecalho {
+        width: 150px;
+        padding-top: 8%;
+
+    }
+}
